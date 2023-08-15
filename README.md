@@ -1,3 +1,3 @@
 # hello-world
-test GitHub for bycho
-python hello.py added in 2023/08/14
+## Test GitHub by ChoByungY(bycho)
+> python test program hello.py added in 2023/08/14
