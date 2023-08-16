@@ -1,3 +1,3 @@
-#! /bin/python3
+# removed "! /usr/bin/python3"
 
-print ("10" + " " + "Hellow world")
+print ("10" + " " + "Hello world")
