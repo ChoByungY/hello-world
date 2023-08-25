@@ -1,6 +1,6 @@
 # Hello-world
 
-## Test GitHub by ChoByungY(bycho)
+## Test GitHub by ChoByungY(Byung Young)
 
 > Data for editing
 
