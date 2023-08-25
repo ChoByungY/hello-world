@@ -1,11 +1,15 @@
 # Hello-world
 
-## Test GitHub by ChoByungY(bycho)
+## Test GitHub by ChoByungY(Byung Young)
 
 > Data for editing
 
-* new line added in branch at 6 years old
+* README.md file added in master at 6 years old
 * python test program "hello.py" added in 2023/08/14
+* test.txt file added in 2023/8/25
+* README.md file bug fixed
+* html folder added in 2023/8/25
+* LocalTest_V1.0 branch added by me in 2023/8/25
 
 ## Studying GitHub
 
