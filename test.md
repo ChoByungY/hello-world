@@ -22,5 +22,5 @@
 8. Pull request handling in gitHub
 9. Merge in local branch
    * git checkout master
-   * git merge LocalTest_V1.1
-   * git -d LocalTest_V1.1
+   * git pull
+   * git branch -d LocalTest_V1.1
