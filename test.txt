@@ -1,6 +1,0 @@
-# TEXT file added
-
-## Text file sub line
-
-1. add text file into remote repository
-2. and add and commit
