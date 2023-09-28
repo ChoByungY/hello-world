@@ -1,4 +1,13 @@
-from random import randint
+from random import randint, randrange, choice
+
+x = range(0,100,3)
+print(x)
+
+x = randrange(0,100,3)
+print(x)
+
+x = choice(range(1,100,3))
+print(x)
 
 items = ['a', 'b', 'c', 'd', 'e']
 
