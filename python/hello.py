@@ -12,15 +12,3 @@ print(a, b, c)
 
 d = set(b)
 print(d)
-
-from random import randint
-
-items = ['a', 'b', 'c']
-end = len(items) -1
-r = randint(0, end)
-print(items[r])
-
-from random import choice
-print(choice(items))
-
-print(choice(items))
