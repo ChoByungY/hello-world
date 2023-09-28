@@ -1,7 +1,7 @@
 # This is same with next paragraph
 from random import randint
 
-items = ['a', 'b', 'c', 'd']
+items = ['a', 'b', 'c', 'd', 'e']
 end = len(items) -1
 r = randint(0, end)
 print(items[r])
