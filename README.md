@@ -20,3 +20,4 @@
 5. pull for any changed file from the other people
 6. commit the modified file
 7. push remote file
+8. repeat 2 or 3
