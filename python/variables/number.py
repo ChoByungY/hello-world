@@ -1,4 +1,4 @@
-#Sample tets file are like this
+#Sample variable test file are like this
 print("Variable numbers test")
 
 x = 1
