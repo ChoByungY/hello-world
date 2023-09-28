@@ -13,7 +13,7 @@
    * git branch LocalTest_V1.1
    * git checkout LocalTest_V1.1
 4. Make another feature or git test in this branch
-   * git mv test.txt to test.md
+   * git mv test.txt test.md
 5. Edit some change in test.md file
 6. commit the change into LocalTest_V1.1
    * git commit -am "rename test.md & modify test.md"

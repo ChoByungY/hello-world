@@ -5,8 +5,9 @@
 > oigin
  * origin  https://github.com/ChoByungY/hello-world.git (fetch)
  * origin  https://github.com/ChoByungY/hello-world.git (push)
+ * use "git clone https://github.com/ChoByungY/hello-world.git"
 
-> Readme.md history
+> [README.md](README.md) history
 
 * README.md file added in master at 6 years old
 * python test program "hello.py" added in 2023/08/14
