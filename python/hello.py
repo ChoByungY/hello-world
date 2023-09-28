@@ -2,9 +2,10 @@
 print("hello world and GitHub studying")
 
 # test line
-print("Other testing program files are coded and added in python directory on its own name")
+print("Testing program files are added in each python directory on its own name")
 
 #Sample tets file are like this
+print("Variable test")
 MyVariable = 100 + 300
 print(MyVariable - 400)
 
