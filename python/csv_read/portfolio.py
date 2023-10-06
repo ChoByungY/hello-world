@@ -2,7 +2,8 @@
 filename = "python/csv_read/portfolio.csv"
 portfolio = []
 
-for line in open(filename):
+ff = open(filename,'r')
+for line in ff:
     fields = line.split(",")
     if fields[0] == 'name' or fields[0][0] == '#':
         continue
@@ -12,6 +13,7 @@ for line in open(filename):
     stock = (name, shares, price)
     portfolio.append(stock)
 
+ff.close()
 
 total = 0.0
 for name, shares, price in portfolio:
