@@ -1,5 +1,5 @@
 # git ignore file
-*.o
+*.[o~]
 .vscode/
 LocalTesting/
 

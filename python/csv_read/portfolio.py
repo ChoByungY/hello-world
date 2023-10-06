@@ -16,8 +16,12 @@ for line in ff:
 ff.close()
 
 total = 0.0
+total_shares = 0.0
 for name, shares, price in portfolio:
-    total = shares * price
+    total += shares * price
+    total_shares += shares
 
 print (portfolio)
+print (f" Total name is {len(portfolio)}")
+print (f" Total shares is {total_shares}")
 print (f" Total price is {total}")
