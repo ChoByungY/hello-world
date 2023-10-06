@@ -1,0 +1,5 @@
+# csv file for shares
+name, shares, price
+GOOG, 100, 490.10
+MSFT, 200, 54.23
+AAPL, 100, 128.30
