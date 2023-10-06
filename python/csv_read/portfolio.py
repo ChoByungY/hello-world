@@ -1,4 +1,5 @@
-filename = "/home/bycho/Programs/git-hub/hello-world/python/csv_read/portfolio.csv"
+#filename = "/home/bycho/Programs/git-hub/hello-world/python/csv_read/portfolio.csv"
+filename = "python/csv_read/portfolio.csv"
 portfolio = []
 
 for line in open(filename):
