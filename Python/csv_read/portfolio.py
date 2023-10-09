@@ -1,5 +1,5 @@
 #filename = "/home/bycho/Programs/git-hub/hello-world/python/csv_read/portfolio.csv"
-filename = "python/csv_read/portfolio.csv"
+filename = "Python/csv_read/portfolio.csv"
 portfolio = []
 
 ff = open(filename,'r')
