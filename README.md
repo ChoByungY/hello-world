@@ -17,17 +17,19 @@
 * LocalTest_V1.0 branch added by me in 2023/8/25
 * test.txt file renamed [test.md](test.md)
 * [.gitignore](.gitignore) file added in 2023/9/28
+* Directory structure changed
+* LocalTest_V1.2 branch added by me in 2023/10/18
 
-## Studying GitHub routine
+## Studying GitHub routines
 
 1. Make remote repository
-2. add file and folder
-3. edit a file and modify the file
-4. staging the modified file
-5. pull for any changed file from the other people
+2. pull for any changed file from the others
+3. add file and folder
+4. edit a file and modify the file
+5. staging the modified file
 6. commit the modified file
-7. push remote file
-8. repeat 2 or 3
+7. push into remote repository
+8. repeat 2 to 6 and 7
 
 ## Running Action
 

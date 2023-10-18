@@ -1,26 +1,21 @@
 # Test for git command
 
-## Text file sub line
+## Text files
 
-1. write command line
+1. Use CLI(command line interface) or VSCODE commands
 2. working test
 
-## Working history
+## Working scenario
 
-1. add text file into remote repository
-2. and add and commit and after then
-3. Create LocalTest_V1.1 branch
-   * git branch LocalTest_V1.1
-   * git checkout LocalTest_V1.1
-4. Make another feature or git test in this branch
-   * git mv test.txt test.md
-5. Edit some change in test.md file
-6. commit the change into LocalTest_V1.1
-   * git commit -am "rename test.md & modify test.md"
+1. Create LocalTest_Vx.x branch
+   * git checkout -b LocalTest_Vx.x
+2. Add and modify some files into local repository
+3. and staging and commit them
+   * git commit -am "Some comments on commit"
 7. Remote add the branch
-   * git push --set-upstream origin LocalTest_V1.1
+   * git push --set-upstream origin LocalTest_Vx.x
 8. Pull request handling in gitHub
 9. Merge in local branch
    * git checkout master
    * git pull
-   * git branch -d LocalTest_V1.1
+   * git branch -d LocalTest_Vx.x
