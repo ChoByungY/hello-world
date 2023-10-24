@@ -7,16 +7,18 @@
 
 ## Working scenario
 
-1. Create LocalTest_Vx.x branch
-   * git checkout -b LocalTest_Vx.x
-2. Add and modify some files into local repository
-3. and staging and commit them
+1. Create develop branch
+   * git switch -c develop
+2. Use develop branch at nomal developing
+3. Add and modify some files into local repository
+4. and staging and commit them
    * git commit -am "Some comments on commit"
-4. Remote add the branch
-   * git push --set-upstream origin LocalTest_Vx.x
-5. Pull request handling in gitHub
-6. Merge in local branch
-   * git checkout master
-   * git pull origin LocalTest_Vx.x
+5. Remote add the branch
+   * git push --set-upstream origin develop
+6. Pull request handling in gitHub
+7. Merge in local branch
+   * git switch master
+   * git merge origin develop
    * git push origin
-   * git branch -d LocalTest_Vx.x
+   * git switch develop
+8. Again running 2 to 7
