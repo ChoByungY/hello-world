@@ -15,14 +15,11 @@
    * git commit -am "Some comments on commit"
 5. Remote add the branch
    * git push --set-upstream origin develop
-6. Pull request handling in gitHub
-7. Merge in local branch
+6. Handle "pull request" in github
    * git switch master
-   * git merge origin develop
-8. Handle "pull request" in github
-   * git push origin
+   * git pull origin
    * git switch develop
-9. Again running 2 to 8
+7. Again running 2 to 6
 
 ## Back to README.md
 
