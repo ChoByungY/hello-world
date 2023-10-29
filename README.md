@@ -14,7 +14,7 @@
 * README.md file bug fixed
 * html folder added in 2023/8/25
 * LocalTest_V1.0 branch added by me in 2023/8/25
-* test.txt file renamed [test.md](./test.md)
+* test.txt file renamed [develop.md](./develop.md)
 * [.gitignore](./.gitignore) file added in 2023/9/28
 * Directory structure changed
 * LocalTest_V1.2 branch added by me in 2023/10/18
@@ -33,4 +33,4 @@
 
 ## Running Action
 
-> [test.md](./test.md)
+> [develop.md](./develop.md)
