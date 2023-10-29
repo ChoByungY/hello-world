@@ -2,12 +2,11 @@
 
 ## Test GitHub by ChoByungY(Byung Young)
 
-> oigin
- * origin  https://github.com/ChoByungY/hello-world.git (fetch)
- * origin  https://github.com/ChoByungY/hello-world.git (push)
- * use "git clone https://github.com/ChoByungY/hello-world.git"
+> origin
 
-> [README.md](README.md) history
+* origin  [github.com/ChoByungY/hello-world](https://github.com/ChoByungY/hello-world.git)
+
+> [README.md](./README.md) history
 
 * README.md file added in master at 6 years old
 * python test program "hello.py" added in 2023/08/14
@@ -15,8 +14,8 @@
 * README.md file bug fixed
 * html folder added in 2023/8/25
 * LocalTest_V1.0 branch added by me in 2023/8/25
-* test.txt file renamed [test.md](test.md)
-* [.gitignore](.gitignore) file added in 2023/9/28
+* test.txt file renamed [test.md](./test.md)
+* [.gitignore](./.gitignore) file added in 2023/9/28
 * Directory structure changed
 * LocalTest_V1.2 branch added by me in 2023/10/18
 * develop branch added in 2023/10/21
@@ -34,4 +33,4 @@
 
 ## Running Action
 
-> [test.md](test.md)
+> [test.md](./test.md)
