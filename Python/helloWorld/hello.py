@@ -2,5 +2,9 @@
 print("hello world and GitHub studying")
 
 # test line
-print("Testing program files are added in each python directory on its own name")
+
+if __name__ == '__main__':
+    print("main program executed")
+else:
+    print("This files imported from others")
 
