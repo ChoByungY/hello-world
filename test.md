@@ -19,9 +19,10 @@
 7. Merge in local branch
    * git switch master
    * git merge origin develop
+8. Handle "pull request" in github
    * git push origin
    * git switch develop
-8. Again running 2 to 7
+9. Again running 2 to 8
 
 ## Back to README.md
 
