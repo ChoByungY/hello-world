@@ -1,9 +1,9 @@
-# Test for git command
+# Develop for git command
 
 ## Text files
 
 1. Use CLI(command line interface) or VSCODE commands
-2. working test
+2. working Develop
 
 ## Working scenario
 
