@@ -1,6 +1,7 @@
 # git ignore file
 *.[o~]
 *.class
+*.pickle
 .vscode/
 LocalTesting/
 
