@@ -22,14 +22,13 @@
 
 ## Studying GitHub routines
 
-1. Make remote repository
-2. pull for any changed file from the others
-3. add file and folder
-4. edit a file and modify the file
-5. staging the modified file
-6. commit the modified file
-7. push into remote repository
-8. repeat 2 to 6 and 7
+1. Make remote repository or clone
+2. pull for any changed files from the others
+3. add files and folders
+4. edit or modify the files
+5. staging and commit the modified files
+6. push into remote repository
+7. repeat 2 to 5 and 6
 
 ## Running Action
 
