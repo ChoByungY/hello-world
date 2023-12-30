@@ -1,0 +1,25 @@
+/*
+style sheet test by bycho at 2023.12.30
+*/
+h1 {
+    color: rgb(71, 20, 120);
+    font-size: 28px;
+}
+
+h2 {
+    color: rgb(23, 80, 61);
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: rgb(40, 85, 87);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    color: brown;
+    font-style: italic;
+}
