@@ -1,6 +1,9 @@
 /*
 style sheet test by bycho at 2023.12.30
 */
+
+/* Tag 선택자
+*/
 h1 {
     color: rgb(71, 20, 120);
     font-size: 28px;
@@ -20,6 +23,17 @@ p {
 }
 
 li {
-    color: brown;
+    color: green;
+}
+
+/* id 선택자
+*/
+#ulstyle {
     font-style: italic;
+}
+
+/* class 선택자
+*/
+.red {
+    color: red;
 }
