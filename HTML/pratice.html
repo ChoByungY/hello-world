@@ -3,17 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Pratice`</title>
+    <meta name="author" content="CHO Byung Young">
+    <title>HTML Pratice</title>
     <!-- 외부 stylesheet 사용법 -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1> -- HTML 연습 -- </h1>
-        <p>
+    <header>
+        <div id="logo">
+            <a href="#"><h1>Dream HTML + CSS + Javascript</h1></a>
+        </div>
+        <p> Header </p>
+        <nav>
+            <ul id="topMeneu">
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+                <li><a href="#">menu4</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main class="contents">
+        <section>
+            <h1> -- HTML 연습 -- </h1>
+            <h2>tag example</h2>
             <a href="#" target="_blank">새창으로 열리는 a 태그</a>
-        </p>
-    </div>
+            <p>p tag 연습 </p>
+            <code>
+                /* code example */ <br>
+                let number = 100;
+            </code>
+            <br>
+            
+            <h2>table example</h2>
+            <table>
+                <tr>
+                    <th>1행 1열</th>
+                    <th>1행 2열</th>
+                </tr>
+                <tr>
+                    <td>2행 1열</td>
+                    <td>2행 2열</td>
+                </tr>
+                <tr>
+                    <td>3행 1열</td>
+                    <td>3행 2열</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <section id="bottomMenu">
+            <hr>
+            <p> Footer </p>
+        </section>
+    </footer>
 
 </body>
 </html>
