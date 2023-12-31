@@ -40,3 +40,15 @@ li {
 .contents {
     color: rgb(40, 85, 87);
 }
+
+/* 기본속성 선택자
+*/
+a[href] {
+    display: block;
+    color: aqua;
+}
+
+a[target="_blank"] {
+    color: rgb(47, 0, 255);
+    display: block;
+}
