@@ -25,6 +25,16 @@ li {
     color: green;
 }
 
+tr {
+    width : 50%;
+    height : 50px;
+    background-color : pink;
+    border : 2;
+}
+td {
+    background-color : rgb(235, 203, 203);
+}
+
 /* id 선택자
 */
 #ulstyle {
