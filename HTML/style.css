@@ -31,6 +31,15 @@ li {
     font-style: italic;
 }
 
+#topMenu {
+    color: brown;
+
+}
+
+#bottomMenu {
+    color: brown;
+}
+
 /* class 선택자
 */
 .red {
