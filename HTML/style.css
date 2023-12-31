@@ -1,0 +1,73 @@
+/*
+style sheet test by bycho at 2023.12.30
+*/
+
+/* Tag 선택자
+*/
+h1 {
+    color: rgb(71, 20, 120);
+    font-size: 28px;
+}
+
+h2 {
+    color: rgb(23, 80, 61);
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    color: green;
+}
+
+tr {
+    width : 50%;
+    height : 50px;
+    background-color : pink;
+    border : 2;
+}
+td {
+    background-color : rgb(235, 203, 203);
+}
+
+/* id 선택자
+*/
+#ulstyle {
+    font-style: italic;
+}
+
+#topMenu {
+    color: brown;
+
+}
+
+#bottomMenu {
+    color: brown;
+}
+
+/* class 선택자
+*/
+.red {
+    color: red;
+}
+
+.contents {
+    color: rgb(40, 85, 87);
+}
+
+/* 기본속성 선택자
+*/
+a[href] {
+    display: block;
+    color: aqua;
+}
+
+a[target="_blank"] {
+    color: rgb(47, 0, 255);
+    display: block;
+}

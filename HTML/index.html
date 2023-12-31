@@ -1,29 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello-world gitHub test home page</title>
+<!-- 내부 스타일시트 사용법
+    <style>
+        h1 {
+            color: brown;
+            font-size: larger;
+        }
+    </style>
+-->
+    <!-- 외부 stylesheet 사용법 -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <a href="index.html">
-        <h1>gitHub & Python test</h1>
+        <h1>gitHub & Programming languages</h1>
     </a>
+    <hr>
 
-    <h2>Hello-world 목차</h2>
-    <ul>
+    <h2>Hello-world contents</h2>
+    <ul id="ulstyle">
         <li>gitHub</li>
-        <li>HTML</li>
+        <!-- inline stylesheet 사용법 -->
+        <li style="color: blue; font-size: medium;">Python</li>
         <li>JAVA</li>
-        <li>Python</li>
-        <li>other test languages</li>
+        <li>HTML & CSS & JavaScript</li>
+        <li>Other test languages</li>
     </ul>
 
     <h3>Hello-world gitHub</h3>
-    <p>Hello-world gitHub test 용 home page는 개인적인 gitHub 및 python test 용 site 입니다. </p>
-
+    <div class="contents">
+        <p>Hello-world home page는 개인적인 gitHub 및 
+        each programming languages test 용 site 입니다. </p>
+        <p>여기서 각종 Programming languages 를 <strong class="red">Study</strong> 하는 용도로 사용합니다.
+        study 하는 동안 자연스럽게 git을 사용하며 github 도 쓰게 됩니다. </p>
+        <a href="pratice1.html">Back to Pratice Home page</a>
+    </div>
 </body>
 
 </html>
