@@ -16,10 +16,11 @@
 5. Remote add the branch
    * git push --set-upstream origin develop
 6. Handle "pull request" in github
+7. and handle local file pull
    * git switch master
    * git pull origin
    * git switch develop
-7. Again running 2 to 6
+8. Again running 2 to 7
 
 ## Back to README.md
 
