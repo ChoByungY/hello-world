@@ -15,7 +15,7 @@
             <h2>form example</h2>
             <hr>
             <h3>회원가입을 환영합니다.</h3>
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <fieldset>
                     <legend>사용자 정보</legend>
                     <ul>
@@ -45,7 +45,17 @@
                     <label for="mailing_n">메일 수신 안함</label>
                     <br>
                     <label for="memo">메모</label>
-                    <textarea name="memo1" id="memo" cols="40" rows="5"></textarea>
+                    <textarea name="memo1" id="memo" cols="40" rows="5">쓰고 싶은 내용을 쓰세요.</textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>커피샵 선택</legend>
+                    <select name="coffee" multiple>
+                        <option value="starbucs">스타벅스</option>
+                        <option value="idiya">이디야</option>
+                        <option value="engel">엔젤이너스</option>
+                        <option value="bombom" selected>봄봄</option>
+                        <option value="twosomw">투썸플레이스</option>
+                    </select>
                 </fieldset>
                 <fieldset>
                     <legend>가입 확인</legend>
@@ -54,6 +64,7 @@
                 </fieldset>
             </form>
         </section>
+
     </main>
     <hr>
     <footer>
