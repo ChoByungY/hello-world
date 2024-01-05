@@ -11,14 +11,33 @@
 <body>
     <h1 id="heading">자바스크립트</h1>
     <p id="text">click upper paragraph</p>
+    <br>
+    <br>
+    <input type="button" onclick="printInfo()" value="click">
+    <br>
+    <br>
+    <br>
+    <button onclick="popup()">pop-up</button>
+
 
     <script>
-        let heading = document.querySelector('#heading');
+        const heading = document.querySelector('#heading');
         heading.onclick = function() {
             if (heading.style.color == "red")
                 heading.style.color = "black";
             else
                 heading.style.color = "red";
+        }
+
+        function printInfo() {
+            console.log(`Browser width: ${window.innerWidth}`);
+            console.log(`Browser height: ${window.innerHeight}`);
+            console.log(`Browser outer width: ${window.outerWidth}`);
+            console.log(`Browser outer height: ${window.outerHeight}`);
+        }
+
+        function popup() {
+            window.open('popup.html', '팝업', 'width=200, height=100');
         }
     </script>
 </body>

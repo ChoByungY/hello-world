@@ -1,7 +1,7 @@
 const person = {
     name: {
         firstName: "GilDong",
-        lastName: "Hone"
+        lastName: "Hong"
     },
     age: 20,
     likes : ["apple", "samsung"],
@@ -15,4 +15,8 @@ console.log(person);
 console.log(person.age);
 console.log(person.likes[0]);
 console.log(person["name"]["firstName"]);
+console.log(person.name.firstName);
 console.log(person["phone number"]);
+
+delete person.age;
+console.log(person);
