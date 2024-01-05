@@ -35,6 +35,12 @@ td {
     background-color : rgb(235, 203, 203);
 }
 
+nav {
+    width: 300px;
+    margin: 50px 30px;
+}
+
+
 /* id 선택자
 */
 #ulstyle {
