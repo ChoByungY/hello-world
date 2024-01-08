@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current time</title>
+</head>
+<body>
+    <button onclick="innertext()">InnerText로 표시하기</button>
+    <button onclick="innerhtml()">InnerHtml로 표시하기</button>
+
+    <h1>현재 시각</h1>
+    <div id="current"></div>
+    <br>
+    <button onclick="window.close()">close popup</button>
+    <script>
+        let now = new Date();
+
+        function innertext() {
+            document.getElementById("current").innerText = now;
+        }
+
+        function innerhtml() {
+            document.getElementById("current").innerHTML = "<em>" + now + "</em>";
+        }
+    </script>
+</body>
+</html>
