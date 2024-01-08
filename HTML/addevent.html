@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="../Data/beer.jpg" id ="cover" width = "800">
+    <script>
+        const cover = document.getElementById("cover");
+        cover.addEventListener("mouseover", changePic);
+        cover.addEventListener("mouseout", originPic);
+
+        function changePic() {
+            cover.src = "../Data/turkye.jpg";
+        }
+        function originPic() {
+            cover.src = "../Data/beer.jpg";
+        }
+    </script>
+</body>
+</html>
