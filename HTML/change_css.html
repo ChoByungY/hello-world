@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Change</title>
+    <style>
+        #rect {
+            color: green;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            border: 10px solid black;
+            text-align: center;
+            position: relative;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="rect">A</div>
+
+    <script>
+        let myRect = document.querySelector("#rect");
+        myRect.addEventListener("mouseover", function() {
+            myRect.style.backgroundColor = "green";
+            myRect.style.borderRadius = "50%";
+        });
+        myRect.addEventListener("mouseout", function() {
+            myRect.style.backgroundColor = "red";
+            myRect.style.borderRadius = "";
+        });
+    </script>
+</body>
+</html>
