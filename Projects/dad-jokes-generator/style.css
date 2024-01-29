@@ -1,7 +1,6 @@
 body {
     margin: 0%;
-    background-image: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
-    /* background-color: rgb(160, 194, 183); */
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -30,7 +29,7 @@ body {
 .btn {
     font-size: 18px;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     padding: 10px;
     border-color: aliceblue;
